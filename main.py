@@ -49,6 +49,7 @@ def main() :
         good_new = points_1[st == 1]
         good_old = points_0[st == 1]
         
+        
         if len(good_new) > 0 :
             dx_distances = np.abs(good_new[:, 0] - good_old[:, 0])
             x_total = np.mean(dx_distances)
