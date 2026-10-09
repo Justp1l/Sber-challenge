@@ -22,7 +22,7 @@
 
 В качестве результата представлен пайплайн, на рисунке ниже:
 
-![Definition](https://github.com/Justp1l/Sber-challenge/blob/main/assets/pipeline-100.jpg)
+![Definition](https://github.com/Justp1l/Sber-challenge/blob/main/assets/pipeline.jpg)
 
 Рисунок 2 - Поулчившийся пайплайн. Авторский ресурс.
 
