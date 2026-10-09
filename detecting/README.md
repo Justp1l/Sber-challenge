@@ -21,4 +21,4 @@
 
 ## Pipeline
 
-![Definition](.\asset\vision.jpg)
+![Definition](asset\vision.jpg)

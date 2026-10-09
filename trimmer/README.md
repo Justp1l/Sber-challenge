@@ -45,4 +45,4 @@
 
 ## Pipeline
 
-![Definition](.\asset\reckon.jpg)
+![Definition](asset\reckon.jpg)
