@@ -2,7 +2,7 @@ import cv2
 import ultralytics
 from pathlib import Path
 
-model = ultralytics.YOLO("yolo11x.pt")
+model = ultralytics.YOLO("yolo11n.pt")
 
 video_path = Path(".\\rendered_video.mp4")
 video = cv2.VideoCapture(video_path)

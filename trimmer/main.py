@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from pathlib import Path
-import math
 
 def main() :
     video = cv2.VideoCapture('.\\raw_data\\output_robot_pov.mp4')

@@ -2,10 +2,13 @@
 requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+packages = ["detecting", "raw_data"]
+
 [project]
-name = "my-project"
+name = "Sber challenge"
 version = "0.1.0"
-description = "Project with Ultralytics, PyTorch, and Data Science dependencies"
+description = "123"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [

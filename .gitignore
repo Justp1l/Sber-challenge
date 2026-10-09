@@ -5,3 +5,4 @@ test.py
 25_occupancy_xy_points.json
 *.ai
 log_example.json
+*.pt
