@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+from pathlib import Path
+import math
 
 def main() :
     video = cv2.VideoCapture('.\\raw_data\\output_robot_pov.mp4')
@@ -66,5 +68,28 @@ def main() :
     out.release()
     print("Released!")
     
+def find_difference():
+    original_video_path = Path(".\\raw_data\\output_robot_pov.mp4")
+    original_video = cv2.VideoCapture(original_video_path)
+    frames_original = int(original_video.get(cv2.CAP_PROP_FRAME_COUNT))
+    
+    sliced_video_path = Path("rendered_video.mp4")
+    sliced_video = cv2.VideoCapture(sliced_video_path)
+    frames_sliced = int(sliced_video.get(cv2.CAP_PROP_FRAME_COUNT))
+    
+    frames_difference =  frames_original-frames_sliced
+    frames_multiplicity = frames_original / frames_sliced
+    print(f"""
+----------Данные---------------------------------------
+Оригинал {original_video_path.name} содержит {frames_original} кадров;
+Отрендеренное видео {sliced_video_path.name} содержит {frames_sliced} кадров.
+----------Расчёт---------------------------------------
+Разница между отрендеренным {sliced_video_path.name} и оригинальным видео по {original_video_path.name} составляет {frames_difference}. 
+Сокращённое видео в ~{round(frames_multiplicity,2)} раз меньше по кадрам, чем оригинал,
+способ позволил сэкономить {frames_difference} итераций (поисков объекта на картинке)
+""")
+    
 if __name__ == '__main__':
     main()
+    find_difference()
+    

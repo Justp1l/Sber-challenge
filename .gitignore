@@ -1,4 +1,7 @@
 venv
-.bag
+*.bag
 convert_to_mp4.py
 test.py
+25_occupancy_xy_points.json
+*.ai
+log_example.json
