@@ -21,4 +21,4 @@
 
 ## Pipeline
 
-![Definition](asset\vision.jpg)
+![Definition](https://github.com/Justp1l/Sber-challenge/blob/main/detecting/asset/vision.jpg)

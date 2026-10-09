@@ -50,4 +50,4 @@
 
 ## Pipeline
 
-![Definition](.\asset\mapping.jpg)
+![Definition](https://github.com/Justp1l/Sber-challenge/blob/main/trajectory/asset/mapping.jpg)

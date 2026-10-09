@@ -45,4 +45,4 @@
 
 ## Pipeline
 
-![Definition](asset\reckon.jpg)
+![Definition](https://github.com/Justp1l/Sber-challenge/blob/main/trimmer/asset/reckon.jpg)
